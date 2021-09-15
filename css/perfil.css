@@ -1,0 +1,53 @@
+.newapp{
+    width: 100%;
+    height: auto;
+}
+.formapp>div{
+    display: block;
+    padding: 15px 25px 20px 25px;
+    width: auto;
+    height: 100px;
+    border-bottom: 1px solid #cecece;
+}
+.formapp>div>input{
+    width: 250px;
+    height: 30px;
+    color: #000;
+    background: none;
+    outline-style: none;
+    border: none;
+    border-bottom: 1px solid var(--line);
+}
+.formapp>div>input::placeholder{
+    color: #000;
+}
+.formapp>div>input[type="file"]{
+    border: none;
+    width: 340px;
+    height: 35px;
+    overflow: hidden;
+}
+.formapp>button{
+    width: 100%;
+    height: 40px;
+    background: #2492d1;
+    color: #fff;
+    border: none;
+    outline-color: transparent; 
+    cursor: pointer;
+}
+.modal{
+    display: none;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: auto;
+}
+.modal>div{
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    background: #cecece;
+}
